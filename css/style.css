@@ -670,6 +670,13 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: var(--shadow-lg);
 }
 
+.about-img-main img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+}
+
 .about-img-main .img-placeholder {
     width: 100%;
     height: 450px;
@@ -690,6 +697,13 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
     box-shadow: var(--shadow-lg);
     border: 5px solid var(--white);
+}
+
+.about-img-secondary img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .about-img-secondary .img-placeholder {
@@ -1175,6 +1189,14 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: var(--radius-lg);
     overflow: hidden;
     cursor: pointer;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.6s ease;
 }
 
 .gallery-item.large {
